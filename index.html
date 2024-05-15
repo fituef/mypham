@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Definition Lists</title>
+        <meta charset="utf-8" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link rel="shortcut icon" href="logo.ico" type="image/x-icon"/>
+        <style>
+            .div_post{
+                height: 150px;
+                width: 100%; 
+                border: 1px solid darkcyan;
+                margin: 5%;
+                margin-bottom: -35px !important;
+                width: 90%;
+            }
+            .post_title{
+                line-height: 4.5;
+                padding-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <h2>List Header</h2>
+             <img src="" id="imgDemo">
+        </main>
+        <footer></footer>
+    </body>
+    <script>
+        const getJSON = async url => {
+  const response = await fetch(url);
+  if(!response.ok) // check if response worked (no 404 errors etc...)
+    throw new Error(response.statusText);
+
+  const data = response.json(); // get JSON from the response
+  return data; // returns a promise, which resolves to this data value
+}
+
+console.log("Fetching data...");
+getJSON("https://sheetdb.io/api/v1/1q3xulpa4wz5z").then(data => {
+  console.log(data[0].STT);
+  $("#imgDemo").attr("src",data[0].STT);
+}).catch(error => {
+  console.error(error);
+});
+    </script>
+</html>
