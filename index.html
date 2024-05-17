@@ -1,49 +1,1107 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Definition Lists</title>
-        <meta charset="utf-8" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <link rel="shortcut icon" href="logo.ico" type="image/x-icon"/>
-        <style>
-            .div_post{
-                height: 150px;
-                width: 100%; 
-                border: 1px solid darkcyan;
-                margin: 5%;
-                margin-bottom: -35px !important;
-                width: 90%;
-            }
-            .post_title{
-                line-height: 4.5;
-                padding-left: 10px;
-            }
-        </style>
-    </head>
-    <body>
-        <header></header>
-        <main>
-            <h2>List Header</h2>
-             <img src="" id="imgDemo">
-        </main>
-        <footer></footer>
-    </body>
-    <script>
-        const getJSON = async url => {
-  const response = await fetch(url);
-  if(!response.ok) // check if response worked (no 404 errors etc...)
-    throw new Error(response.statusText);
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="c1 i1 " xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" lang="vi">
 
-  const data = response.json(); // get JSON from the response
-  return data; // returns a promise, which resolves to this data value
+<head class="c2 i2 ">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5C3FC6Q6');</script>
+    <!-- End Google Tag Manager -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-language" content="vi" />
+    <link rel="apple-touch-icon" href="/public/upload/f.png">
+    <link rel="icon" type="image/png" href="https://png.pngtree.com/png-clipart/20230805/original/pngtree-logo-beauty-salon-branding-natural-cosmetics-vector-picture-image_9791238.png">
+    <meta name="copyright" content="HỒNG PHÚ THỊNH COLLAGEN" />
+    <meta name="author" content="HỒNG PHÚ THỊNH COLLAGEN" />
+    <meta name="generator" content="HỒNG PHÚ THỊNH COLLAGEN" />
+    <meta http-equiv="audience" content="General" />
+    <meta name="resource-type" content="Document" />
+    <meta name="distribution" content="Global" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="rating" content="GENERAL" />
+    <meta name="robots" content="index,follow" />
+    <meta name="Googlebot" content="index,follow,archive" />
+
+
+
+    <title>HỒNG PHÚ THỊNH COLLAGEN</title>
+    <meta name="description"
+        content="Vượt trội hơn các sản phẩm Collagen thông thường với khả năng cấp ẩm, bảo vệ da toàn diện từ Ceramide. CeraFull EX+ có thể nuôi dưỡng, tái tạo vẻ đẹp, tuổi trẻ và sức khỏe từ bên trong, giúp bạn tự tin bừng sáng.">
+    <meta name="keywords" content="">
+    <meta property="og:title" content="HỒNG PHÚ THỊNH COLLAGEN" />
+    <meta property="og:description"
+        content="Vượt trội hơn các sản phẩm Collagen thông thường với khả năng cấp ẩm, bảo vệ da toàn diện từ Ceramide. CeraFull EX+ có thể nuôi dưỡng, tái tạo vẻ đẹp, tuổi trẻ và sức khỏe từ bên trong, giúp bạn tự tin bừng sáng." />
+    <meta property="og:image" itemprop="thumbnailUrl" content="http://cerafullex.com/public/thumbs/21.png" />
+    <meta property="og:image:alt" content="HỒNG PHÚ THỊNH COLLAGEN" />
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="350">
+    <meta property="og:rich_attachment" content="true">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://cerafullex.com" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="og:site_name" content="HỒNG PHÚ THỊNH COLLAGEN" />
+    <meta property="article:publisher" content="https://www.facebook.com/lorem">
+    <meta property="article:tag" content="">
+    <meta property="fb:app_id" content="1626757400901101" />
+    <link rel="canonical" href="http://cerafullex.com" />
+
+    <meta property="twitter:image" content="https://png.pngtree.com/png-clipart/20230805/original/pngtree-logo-beauty-salon-branding-natural-cosmetics-vector-picture-image_9791238.png" />
+    <meta property="article:published_time" content="" />
+    <meta property="article:modified_time" content="" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="http://cerafullex.com" />
+    <meta property="twitter:title" content="CeraFull EX+ Tự tin bừng sáng vì bạn xứng đáng" />
+    <meta property="twitter:description"
+        content="Vượt trội hơn các sản phẩm Collagen thông thường với khả năng cấp ẩm, bảo vệ da toàn diện từ Ceramide. CeraFull EX+ có thể nuôi dưỡng, tái tạo vẻ đẹp, tuổi trẻ và sức khỏe từ bên trong, giúp bạn tự tin bừng sáng." />
+    <link class="c3 i3 " href="//fonts.googleapis.com/css?family=Barlow:100,200,300,400,500,600,700,800,900"
+        rel=stylesheet type=text/css />
+    <link class="c4 i4 " href="https://cerafullex.com/public/frontend/fonts/stylesheet.css" rel=stylesheet>
+
+    <link class="c6 i6 " href="https://cerafullex.com/public/frontend/polo/css/polo.css" rel=stylesheet>
+    <link class="c7 i7 " href="https://cerafullex.com/public/frontend/hieuung.css" rel=stylesheet>
+    <link class="c8 i8 " href="https://cerafullex.com/public/frontend/custom.css?v=1715865559" rel=stylesheet>
+</head>
+
+<body class="c9 i9 no-page-loader index-page">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5C3FC6Q6" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="c10 i10 " id=wrapper>
+        <header id="header" class="c11 i48    header-logo-center">
+            <div class="c12 i49 " id="header-wrap">
+                <div class="c13 i50 container">
+                    <div class="c14 i51 " id="logo">
+                        <a href="/" class="c15 i52 logo" data-dark-logo="/upload/logow.png">
+                            <img class="c16 i53" id="imgLogo" src="https://png.pngtree.com/png-clipart/20230805/original/pngtree-logo-beauty-salon-branding-natural-cosmetics-vector-picture-image_9791238.png"
+                                alt="HỒNG PHÚ THỊNH COLLAGEN">
+                        </a>
+                    </div>
+
+                    <div class="c28 i65 header-extras" style="border: none;">
+                        <ul class="c29 i66 "> 
+                        </ul>
+                    </div>
+                    <div class="c66 i103 " id="mainMenu-trigger">
+                        <button class="c67 i104 lines-button x"> <span class="c68 i105 lines"></span> </button>
+                    </div>
+                    <div id="mainMenu" class="c69 i106 light   ">
+                        <div class="c70 i107 container">
+                            <nav class="c71 i108 ">
+                                <ul class="i109 ">
+                                    <li class=" ">
+                                        <a href="#s2" class="i110 scroll-to" id="SANPHAM1"></a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="#s3" class="i110 scroll-to" id="SANPHAM2"></a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="#s4" class="i110 ">Trải nghiệm</a>
+                                    </li>
+                                </ul>
+                                <ul class="i109 ">
+                                    <li class=" ">
+                                        <a href="" class="i110  ">Chứng nhận</a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="#s1" class="i110 scroll-to ">Ưu đãi</a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="javascript:void(0)" class="i110   btn-mua ">Nhận tư vấn</a>
+                                    </li>
+                                </ul>
+
+
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="c72 " id="s1"
+            style='background-image:url("https://cerafullex.com/public/upload/13-1.jpg");background-size: cover;background-position: center;'>
+            <div class="c73 container">
+                <div class="c74 row">
+                    
+                    <div class="c75 col-md-6">
+                        <div class="c76 ">
+                            <p class="c77  wow bounceInLeft " data-wow-delay="0.2s">Ưu đãi trải nghiệm</p>
+                            <p class="c78  wow bounceInLeft " data-wow-delay="0.3s">Số lượng có hạn</p>
+                            <p class="c79  wow bounceInLeft " data-wow-delay="0.4s">Liệu trình 10 ngày</p>
+                            <p class="c80  wow bounceInLeft " data-wow-delay="0.5s">CHỈ <span
+                                    class="c81 ">693.000Đ</span> <span class="c82 ">990.000Đ</span><span
+                                    class="c83 ">693.000Đ</span></p>
+                            <p class="c79 c80x  wow bounceInLeft " data-wow-delay="0.6s">Liệu trình 30 ngày</p>
+                            <p class="c80 c84  wow bounceInLeft " data-wow-delay="0.7s">CHỈ<span
+                                    class="c81 c85 ">2.079.000Đ</span><span class="c82 c86 ">2.970.000Đ</span><span
+                                    class="c83 c87 ">2.079.000Đ</span></p>
+                            <p class="c88  wow bounceInLeft " data-wow-delay="0.8s">Thời gian ưu đãi chỉ còn</p>
+                            <div class="c89  wow bounceInLeft " data-wow-delay="0.9s">
+                                <div class="c89x row">
+                                    <div class="col-xs-3 c89xx">
+                                        <p class="c90 "><span class="c91 days">00</span><br class="c92 ">Ngày</p>
+                                    </div>
+                                    <div class="col-xs-3 c89xx">
+                                        <p class="c90 "><span class="c91 hours">00</span><br class="c92 ">Giờ</p>
+                                    </div>
+                                    <div class="col-xs-3 c89xx">
+                                        <p class="c90 "><span class="c91 minutes">00</span><br class="c92 ">Phút</p>
+                                    </div>
+                                    <div class="col-xs-3 c89xx">
+                                        <p class="c90 "><span class="c91 seconds">00</span><br class="c92 ">Giây</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="c102  wow zoomInUp"><a class="c103 btn btn-mua wow pulse"
+                                    data-wow-iteration="100000" data-wow-duration="0.3s" href="javascript:void(0)">Nhận
+                                    ngay ưu đãi</a></p>
+                        </div>
+                    </div>
+                    <div class="c104 col-md-6">
+                        <div class="c105  wow bounceInRight">
+                            <p class="c106 "><img class="c107" id="img_" src="http://cerafullex.com/public/upload/4-1.png"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="c108 " id="s2"
+            style='background-image:url("https://cerafullex.com/public/upload/19-1.jpg");background-size: cover;background-position: center;'>
+            <div class="c109 container">
+                <h1 style="font-weight: bold !important;" id="tt1"></h1>
+                <div class="c110 row">
+                    <div class="c111 col-md-6  wow bounceInLeft">
+                        <div class="c112 ">
+                            <p class="c113 "><img class="c114" id="img2" src="/public/upload/14.png"></p>
+                        </div>
+                    </div>
+                    <div class="c115 col-md-6">
+                        <div class="c116 ">
+                            <h3 style="font-weight: bold !important;" >CÔNG DỤNG SẢN PHẨM</h3>
+                            <p class="c117  wow bounceInRight " data-wow-delay="0.2s">
+                                <img class="c118 imgIcon" src="/public/upload/15.png"><span class="c118x">DA CĂNG - MỀM - ẨM & SÁNG MỊN</span>
+                            </p>
+                            <p class="c117 c119  wow bounceInRight " data-wow-delay="0.3s">
+                                <img class="c118 c120  imgIcon"
+                                    src="/public/upload/16.png"><span class="c118x">MỜ SẠM NÁM, GIẢM NẾP NHĂN</span></p>
+                            <p class="c117 c121  wow bounceInRight " data-wow-delay="0.4s"><img class="c118 c122 imgIcon"
+                                    src="/public/upload/17.png"><span class="c118x">GIỮ TÓC BỒNG BỀNH, GIẢM GÃY
+                                    RỤNG</span></p>
+                            <p class="c117 c123  wow bounceInRight " data-wow-delay="0.5s"><img class="c118 c124 imgIcon"
+                                    src="/public/upload/18.png"><span class="c118x">GIÚP MÓNG TAY CHẮC KHỎE</span></p>
+                            <p class="c117 c125  wow bounceInRight " data-wow-delay="0.6s"><img class="c118 c126 imgIcon"
+                                    src="/public/upload/19.png"><span class="c118x">CẢI THIỆN CHỨC NĂNG SỤN KHỚP</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="c108 " id="s3"
+            style='background-image:url("https://cerafullex.com/public/upload/13-1.jpg");background-size: cover;background-position: center;'>
+            <div class="c109 container">
+                <h1 style="font-weight: bold !important;" id="tt2"></h1>
+                <div class="c110 row">
+                    <div class="c111 col-md-6  wow bounceInLeft">
+                        <div class="c112 ">
+                            <p class="c113 "><img class="c114" id="img3" src="/public/upload/14.png"></p>
+                        </div>
+                    </div>
+                    <div class="c115 col-md-6">
+                        <div class="c116 ">
+                            <h3 style="font-weight: bold !important;" >CÔNG DỤNG SẢN PHẨM</h3>
+                            <p class="c117  wow bounceInRight " data-wow-delay="0.2s">
+                                <img class="c118 imgIcon" src="/public/upload/15.png"><span class="c118x">DA CĂNG - MỀM - ẨM & SÁNG MỊN</span>
+                            </p>
+                            <p class="c117 c119  wow bounceInRight " data-wow-delay="0.3s">
+                                <img class="c118 c120  imgIcon"
+                                    src="/public/upload/16.png"><span class="c118x">MỜ SẠM NÁM, GIẢM NẾP NHĂN</span></p>
+                            <p class="c117 c121  wow bounceInRight " data-wow-delay="0.4s"><img class="c118 c122 imgIcon"
+                                    src="/public/upload/17.png"><span class="c118x">GIỮ TÓC BỒNG BỀNH, GIẢM GÃY
+                                    RỤNG</span></p>
+                            <p class="c117 c123  wow bounceInRight " data-wow-delay="0.5s"><img class="c118 c124 imgIcon"
+                                    src="/public/upload/18.png"><span class="c118x">GIÚP MÓNG TAY CHẮC KHỎE</span></p>
+                            <p class="c117 c125  wow bounceInRight " data-wow-delay="0.6s"><img class="c118 c126 imgIcon"
+                                    src="/public/upload/19.png"><span class="c118x">CẢI THIỆN CHỨC NĂNG SỤN KHỚP</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="c127 " id="s3"
+            style='background-image:url("https://cerafullex.com/public/upload/22-1.jpg");background-size: cover;background-position: center;'>
+            <div class="c128 container">
+                <div class="c129 row">
+                    <div class="c130 col-md-7">
+                        <div class="c131 matchHeight">
+                            <p class="c132  wow bounceInLeft">Tự tin bừng sáng <br class="c133 "><span class="c134 ">vì
+                                    bạn xứng đáng</span></p>
+                            <p class="c135  wow bounceInLeft">
+                                <iframe width="560" height="315" style="width: 100%"
+                                    src="//www.youtube.com/embed/EMZqSb2XDpg" frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </p>
+                            <p class="c137  wow bounceInLeft"><span class="c138 ">Vượt trội</span> hơn các sản phẩm
+                                Collagen thông thường với khả năng <span class="c139 ">cấp ẩm, bảo vệ da toàn
+                                    diện</span> từ <span class="c140 ">Ceramide. CeraFull EX+</span> có thể <span
+                                    class="c141 ">nuôi dưỡng, tái tạo</span> vẻ đẹp, tuổi trẻ và sức khỏe từ bên trong,
+                                giúp bạn <span class="c142 ">tự tin bừng sáng</span>.</p>
+                            <p class="c143  wow bounceInLeft"><a class="c144 btn btn-mua" href="javascript:void(0)">Bừng
+                                    sáng cùng cerafull</a></p>
+                        </div>
+                    </div>
+                    <div class="c145 col-md-5">
+                        <div class="c146 matchHeight  wow bounceInRight">
+                            <p class="c147 "><img class="c148 " src="/public/upload/20.png"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="c149 " id="s4">
+            <div class="c150 container">
+                <div class="c151 ">
+                    <p class="c152  wow fadeInUp"><img class="c153 " src="/public/upload/23-1.jpg"></p>
+                    <p class="c155  wow zoomInUp">6.000 μg Ceramide chiết xuất từ mầm ngô không biến đổi gen, có hiệu
+                        quả cấp ẩm, khóa ẩm và bảo vệ da tối đa.</p>
+                    <p class="c155 c156 wow zoomInUp">10.000 mg Collagen Peptide có nguồn gốc từ vảy cá biển, tương
+                        thích với cơ thể người lên tới 90%.</p>
+                    <p class="c155 c157 wow zoomInUp">5.000 μg Placenta & các dưỡng chất thiết yếu như Vitamin C,
+                        Vitamin B1, B2, B6 và Acid Citric</p>
+                </div>
+            </div>
+        </section>
+        <section class="c158 " id="s5">
+            <div class="c159 container">
+                <div class="c160 heading">
+                    <h2 class="c161  wow fadeInUp">Vì sao chọn <span class="c162 ">Cerafull EX+</span></h2>
+                </div>
+                <div class="c163 row">
+                    <div class="c164 col-md-4  wow bounceInUp " data-wow-delay="0.2s">
+                        <div class="c165 matchHeight"
+                            style='background-image:url("https://cerafullex.com/public/upload/28-1.png");background-size: 100% 100%;background-position: center;'>
+                            <p class="c166 "><img class="c167 " src="https://cerafullex.com/public/upload/26.png"></p>
+                            <div class="c166x">
+                                <p class="c168 ">Sản xuất và nhập khẩu trực tiếp<br class="c169 ">từ Nhật Bản</p>
+                                <p class="c170 ">Đầy đủ giấy tờ, minh bạch <br class="c171 ">nguồn gốc</p>
+                                <p class="c172 ">100% nguyên liệu thiên nhiên</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c173 col-md-4  wow bounceInUp " data-wow-delay="0.3s">
+                        <div class="c165 matchHeight"
+                            style='background-image:url("https://cerafullex.com/public/upload/28-1.png");background-size: 100% 100%;background-position: center;'>
+                            <p class="c166 "><img class="c167 " src="https://cerafullex.com//public/upload/27.png"></p>
+                            <div class="c166x">
+                                <p class="c177 ">Không thành phần biến đổi gen</p>
+                                <p class="c178 ">Không caffein, không gây mất ngủ</p>
+                                <p class="c179 ">Không chất bảo quản</p>
+                                <p class="c180 ">Không gây béo, không tích nước</p>
+                                <p class="c181 ">Không gây rối loạn nội tiết</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c182 col-md-4  wow bounceInUp " data-wow-delay="0.4s">
+                        <div class="c165 matchHeight"
+                            style='background-image:url("https://cerafullex.com//public/upload/28-1.png");background-size: 100% 100%;background-position: center;'>
+                            <p class="c166 "><img class="c167 " src="https://cerafullex.com//public/upload/28.png"></p>
+                            <div class="c166x">
+                                <p class="c186 ">Phù hợp cho cả nam và nữ</p>
+                                <p class="c187 ">Hàm lượng dưỡng chất cao</p>
+                                <p class="c188 ">Nhỏ gọn tiện lợi</p>
+                                <p class="c189 ">Có thể mix cùng <br class="c190 ">các loại đồ uống khác</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="c191 " id="s6"
+            style='background-image:url("https://cerafullex.com/public/upload/32-1.jpg");background-size: cover;background-position: center;background-repeat: no-repeat;'>
+            <div class="c192 container  wow fadeInUp ">
+                <div class="c193 heading">
+                    <h2 class="c194 ">Khách hàng nói gì về <br class="visible-xs"><span class="c195 ">Cerafull
+                            EX+</span></h2>
+                </div>
+                <div class="c196 carousel" data-items="1" data-margin="20" data-loop=true data-autoplay=true
+                    data-dots=false data-lightbox="gallery">
+                    <div class="c197"
+                        style='background-image:url("https://cerafullex.com/public/upload/30.png");background-size: 100% 100%;background-position: center;'>
+                        <div class="c197x row">
+                            <div class="c198 col-md-7">
+                                <div class="c198x">
+                                    <p class="c199 ">“Cân nhắc mãi chị mới chốt đơn liệu trình 3 tháng đấy. Được cái là
+                                        khoản đầu tư này xứng đáng. Trộm vía bây giờ da dẻ thấy sáng hơn, nếp nhăn cũng
+                                        mờ đi phần nào rồi. Mấy đứa bạn tưởng chị chăm đi spa lắm đấy, không chê thì để
+                                        chị giới thiệu chúng nó cho.”</p>
+                                    <p class="c200 ">Chị Nhàn</p>
+                                    <p class="c201 ">Khách hàng Cerafull EX+</p>
+                                </div>
+                            </div>
+                            <div class="c202 col-md-5">
+                                <div class="c202x"
+                                    style='background-image:url("https://cerafullex.com/public/upload/29.png");background-size: contain;background-position: bottom;background-repeat: no-repeat;'>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c197"
+                        style='background-image:url("https://cerafullex.com/public/upload/30.png");background-size: 100% 100%;background-position: center;'>
+                        <div class="c197x row">
+                            <div class="c198 col-md-7">
+                                <div class="c198x">
+                                    <p class="c199 ">“Năm vừa rồi tập trung cho công việc nhiều quá, nên chị ít có thời
+                                        gian đi chăm sóc da. Một ngày nhìn mình trong gương mà giật mình thấy da sạm và
+                                        xuất hiện nếp nhăn. Cách đây 2 tháng, chị bắt đầu sử dụng CeraFull EX+. Hiện
+                                        tại, chị thấy da săn, chắc hơn. Nếp nhăn thì vẫn còn nhưng mờ hơn nhiều so với
+                                        dạo trước.”</p>
+                                    <p class="c200 ">Chị Linh</p>
+                                    <p class="c201 ">Khách hàng Cerafull EX+</p>
+                                </div>
+                            </div>
+                            <div class="c202 col-md-5">
+                                <div class="c202x"
+                                    style='background-image:url("https://cerafullex.com/public/upload/29-1.png");background-size: contain;background-position: bottom;background-repeat: no-repeat;'>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c197"
+                        style='background-image:url("https://cerafullex.com/public/upload/30.png");background-size: 100% 100%;background-position: center;'>
+                        <div class="c197x row">
+                            <div class="c198 col-md-7">
+                                <div class="c198x">
+                                    <p class="c199 ">"Tết này về quê mà chị bất ngờ vì rất nhiều người khen trẻ và xinh
+                                        ra. Năm trước cũng được khen nhưng nghe là biết xã giao rồi. Năm nay mọi người
+                                        còn hỏi chị đi thẩm mỹ đúng không. Chị bảo không mà người ta không tin."</p>
+                                    <p class="c200 ">Chị Phương</p>
+                                    <p class="c201 ">Khách hàng Cerafull EX+</p>
+                                </div>
+                            </div>
+                            <div class="c202 col-md-5">
+                                <div class="c202x"
+                                    style='background-image:url("https://cerafullex.com/public/upload/29-2.png");background-size: contain;background-position: bottom;background-repeat: no-repeat;'>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c222 container  wow fadeInUp ">
+                <div class="c223 heading">
+                    <h2 class="c224 ">Hãy để <span class="c225 ">Cerafull EX+</span><br class="visible-xs"> tư vấn cho
+                        <br>vấn đề của bạn</h2>
+                </div>
+                <form class="c226 i301" data-element="mail-to-admin" novalidate="novalidate">
+                    <div class="c227 i302 form-group">
+                        <label>Họ và tên</label>
+                        <input type="text" name="Name" class="c228 i304 form-control name" placeholder="">
+                    </div>
+                    <div class="c229 i305 form-group">
+                        <label>Số điện thoại</label>
+                        <input type="text" name="Phone" class="c230 i307 form-control phone" placeholder="">
+                    </div>
+                    <div class="c231 i311 form-group">
+                        <label>Vấn đề gặp phải</label>
+                        <select type="text" name="Note" rows="3" class="c232 i313 form-control" placeholder="">
+                            <option>Da</option>
+                            <option>Tóc</option>
+                            <option>Móng tay</option>
+                            <option>Sụn khớp</option>
+                        </select>
+                    </div>
+                    <div class="c233 i314 form-group text-center">
+                        <input type="hidden" class="c234 i317 utm" name="utm" value="">
+                        <input type="hidden" class="c235 i318 device" name="device" value="Máy tính">
+                        <button class="c236 i319 btn btn-my btn-send-mail"
+                            data-action="Khách hàng gửi thông tin từ trang liên hệ" type="button">Nhận tư vấn</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="c237 " id="">
+            <div class="c238 container">
+                <p class="c239  wow fadeInUp "><img class="c240 " src="/public/upload/1.png"></p>
+                <p class="c241  wow fadeInUp ">HỒNG THỊNH COLLAGEN</p>
+                <p class="c242  wow fadeInUp ">BÌNH CHÁNH, TP. HỒ CHÍ MINH</p>
+                <p class="c243  wow fadeInUp ">Hotline: <a class="c244 " href="tel:0987777888">090988888</a></p>
+                <p class="c245  wow fadeInUp ">Fanpage: <a class="c246 "
+                        href="https://facebook.com/hongthinhcollagen">facebook.com/hongthinhcollagen</a></p>
+                <p class="c247  wow fadeInUp ">Website: <a class="c248 " href="https://hongthinhcollagen.com/">
+                    hongthinhcollagen.com</a></p>
+                <p class="c247x  wow fadeInUp "><img class="c247xx" src="/public/upload/34.png"></p>
+            </div>
+        </section>
+    </div>
+    <a class="c249 i212 " id="goToTop"><i class="c250 i213 fa fa-angle-up top-icon"></i><i
+            class="c251 i214 fa fa-angle-up"></i></a>
+
+    <script class="c256 i219 " src="https://cerafullex.com/public/frontend/js/jquery-3.6.0.min.js"></script>
+    <script class="c257 i220 " src="https://cerafullex.com/public/frontend/polo/js/plugins.js"></script>
+    <script class="c258 i221 " defer src="https://cerafullex.com/public/frontend/functions.js"></script>
+    <script class="c259 i222 " defer src="https://cerafullex.com/public/frontend/js/jquery.cookie.min.js"></script>
+    <script class="c260 i223 " defer src="https://cerafullex.com/public/frontend/js/jquery.matchHeight-min.js"></script>
+
+
+    <script class="c263 i226 " defer src="https://cerafullex.com/public/frontend/js/wow.min.js"></script>
+
+
+
+
+
+
+    <div class="i1064 modal fade" id="modalForm" tabindex="-1" role="modal" aria-labelledby="modal-label"
+        aria-hidden="true">
+        <div class="i1065 modal-dialog modal-lg">
+            <div class="i1066 modal-content" data-element="mail-to-admin">
+                <button type="button" class="i1068 close" data-dismiss="modal" aria-hidden="true">×</button>
+                <div class="i1070 modal-body">
+                    <div class="c223 heading">
+                        <h2 class="c224 "><span class="c225 ">HỒNG PHÚ THỊNH COLLAGEN</span><br class="visible-xs"><br> tư vấn
+                            cho vấn đề của bạn</h2>
+                    </div>
+                    <form class="c226 i301" data-element="mail-to-admin" novalidate="novalidate">
+                        <div class="c227 i302 form-group">
+                            <label>Họ và tên</label>
+                            <input type="text" name="Name" class="c228 i304 form-control name" placeholder="">
+                        </div>
+                        <div class="c229 i305 form-group">
+                            <label>Số điện thoại</label>
+                            <input type="text" name="Phone" class="c230 i307 form-control phone" placeholder="">
+                        </div>
+                        <div class="c231 i311 form-group">
+                            <label>Vấn đề gặp phải</label>
+                            <select type="text" name="Note" rows="3" class="c232 i313 form-control" placeholder="">
+                                <option>Da</option>
+                                <option>Tóc</option>
+                                <option>Móng tay</option>
+                                <option>Sụn khớp</option>
+                            </select>
+                        </div>
+                        <div class="c233 i314 form-group text-center">
+                            <input type="hidden" class="c234 i317 utm" name="utm" value="">
+                            <input type="hidden" class="c235 i318 device" name="device" value="Máy tính">
+                            <button class="c236 i319 btn btn-my btn-send-mail"
+                                data-action="Khách hàng gửi thông tin từ trang liên hệ" type="button">Nhận tư
+                                vấn</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="i1130 modal fade" id="modalHotline" tabindex="-1" role="modal" aria-labelledby="modal-label"
+        aria-hidden="true">
+        <div class="i1131 modal-dialog modal-sm">
+            <form class="i1132 modal-content" data-element="mail-to-admin">
+                <div class="i1133 modal-header">
+                    <button type="button" class="i1134 close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="i1135 modal-title" id="modal-label">Tư vấn cho tôi</h4>
+                </div>
+                <div class="i1136 modal-body">
+                    <div class="i1137 form-group">
+                        <label class="i1138 ">Tên của bạn*</label>
+                        <input type="text" class="i1139 form-control name" name="Name" value="">
+                    </div>
+                    <div class="i1140 form-group">
+                        <label class="i1141 ">Điện thoại*</label>
+                        <input type="text" class="i1142 form-control phone" name="Phone" value="">
+                    </div>
+                </div>
+                <div class="i1143 modal-footer">
+                    <input type="hidden" class="i1144 utm" name="utm" value="">
+                    <input type="hidden" class="i1145 device" name="device" value="">
+                    <button type="button" class="i1146 btn btn-my btn-send-mail"
+                        data-action="Khách hàng yêu cầu báo giá">Gửi</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/ vi_VN /sdk.js#xfbml=1&version=v3.3&appId=1626757400901101&autoLogAppEvents=1"></script>
+
+    <script type=text/javascript>
+	window.addEventListener('DOMContentLoaded', function() {
+		(function($) {
+
+						var end = new Date('05/17/2024 23:59:59');
+			
+			var _second = 1000;
+			var _minute = _second * 60;
+			var _hour = _minute * 60;
+			var _day = _hour * 24;
+			var timer;
+
+			function showRemaining() {
+				var now = new Date();
+				var distance = end - now;
+				if (distance < 0) {
+
+					clearInterval(timer);
+					document.getElementById('countdown').innerHTML = 'Đã hết hạn đăng ký';
+
+					return;
+				}
+				var days = Math.floor(distance / _day);
+				var hours = Math.floor((distance % _day) / _hour);
+				var minutes = Math.floor((distance % _hour) / _minute);
+				var seconds = Math.floor((distance % _minute) / _second);
+				if(days < 10){days = '0'+days;}
+				if(hours < 10){hours = '0'+hours;}
+				if(minutes < 10){minutes = '0'+minutes;}
+				if(seconds < 10){seconds = '0'+seconds;}
+
+							// document.getElementById('countdown').innerHTML = 'Thời gian đăng ký: còn ';
+							// document.getElementById('countdown').innerHTML += days + ' ngày ';
+							// document.getElementById('countdown').innerHTML += hours + ' giờ ';
+							// document.getElementById('countdown').innerHTML += minutes + ' phút ';
+							// document.getElementById('countdown').innerHTML += seconds + ' giây';
+							$('.days').text(days);
+							$('.hours').text(hours);
+							$('.minutes').text(minutes);
+							$('.seconds').text(seconds);
+						}
+
+						timer = setInterval(showRemaining, 1000);
+
+
+			// $('.lazy').Lazy();
+			$(".matchHeight").matchHeight({byRow:true,property:"height",target:null,remove:false});
+			$(".matchHeight1").matchHeight({byRow:true,property:"height",target:null,remove:false});
+			$(".matchHeight2").matchHeight({byRow:true,property:"height",target:null,remove:false});
+			$(".matchHeight3").matchHeight({byRow:true,property:"height",target:null,remove:false});
+			$(".matchHeight4").matchHeight({byRow:true,property:"height",target:null,remove:false});
+			$(".matchHeight5").matchHeight({byRow:true,property:"height",target:null,remove:false});
+			$(".matchHeight6").matchHeight({byRow:true,property:"height",target:null,remove:false});
+			// $(".sticky").sticky({topSpacing:0});
+			new WOW().init();
+			if (typeof fbq === 'function') {
+				fbq('track', 'ViewContent', {
+					content_ids: [''],
+					content_type: 'product',
+					value: '',
+					currency: 'VND'
+				});
+			}
+
+			$("input:checkbox").on('click', function() {
+			  // in the handler, 'this' refers to the box clicked on
+			  var $box = $(this);
+			  if ($box.is(":checked")) {
+			    // the name of the box is retrieved using the .attr() method
+			    // as it is assumed and expected to be immutable
+			    var group = "input:checkbox[name='" + $box.attr("name") + "']";
+			    // the checked state of the group/box on the other hand will change
+			    // and the current value is retrieved using .prop() method
+			    $(group).prop("checked", false);
+			    $box.prop("checked", true);
+			  } else {
+			  	$box.prop("checked", false);
+			  }
+			});
+
+			if ($(window).width() > 767 && $('.pinBox').length && $('.pinned').length) {
+				var divWidth = $('.pinBox').width();
+				$('.pinBox').css('height',$('.pinBox').height());
+				var pinOffset = $('.pinBox').offset().top - 100;
+				console.log(divWidth,pinOffset); 
+				$(window).scroll(function(event) {
+					var screenTop = $(document).scrollTop();
+					console.log(screenTop,pinOffset); 
+					if(screenTop>=pinOffset){
+						$('.pinned').css('position','fixed').css('top','90px').css('width',divWidth);
+					}else{
+						$('.pinned').css('position','relative').css('top','0');
+					}
+				});
+			}
+
+			if($(window).width() > 950){
+				$('body').on('click', '.btn-hotline-pc', function(event) {
+					event.preventDefault();
+					console.log(1);
+					$('#modalHotline').modal('show');
+				});
+			}
+
+			$('body').on('click', '.btn-mua', function(event) {
+				console.log(1);
+				$('#modalForm').modal('show');
+				$('#modalForm').find('.sp-name').val($(this).data('name'));
+				$('#modalForm').find('.sp-id').val($(this).data('id'));
+				$('#modalForm').find('.sp-price').val($(this).data('price'));
+
+				var device = (isMobile())?'Mobile':'PC';
+				var utm = getUrlParameter('utm_source');
+				var action='Khách hàng bấm nút đăng ký '+$(this).data('name');
+				var currenturl=window.location.href;
+
+				$.ajax({
+					dataType: "html",
+					type: "POST",
+					evalScripts: true,
+					url: "/ds-add.php",
+					data: ({device:device, utm:utm, action:action, currenturl:currenturl}),
+					success: function(){},
+					error: function (xhr, ajaxOptions, thrownError) {
+						//alert(xhr.responseText);
+						alert(thrownError);
+					}
+				});
+
+			});
+
+			// <div class="form-group">
+			// <input type="file" class="form-control fileupload" name="" value="">
+			// <input type="hidden" class="form-control fileuploadlink" name="File CV">
+			// </div>
+
+			$(".fileupload").on('change', function(event) {
+				console.log('fileupload'); 
+				event.preventDefault();
+				var fileparent = $(this).parents('.form-group');
+				var fileinput = $(this);
+				var filelink = fileparent.find('.fileuploadlink');
+
+				var fd = new FormData();
+				var files = $(this)[0].files;
+				if(files.length > 0 ){
+					fd.append('file',files[0]);
+					$.ajax({
+						url: '/public/fileupload.php',
+						type: 'post',
+						data: fd,
+						contentType: false,
+						processData: false,
+						success: function(response){
+							if(response != 0){
+								console.log(response); 
+								filelink.val('http://cerafullex.com/public/'+response); 
+								// $(".preview img").show();
+							}else{
+								alert('Tải lên KHÔNG thành công, vui lòng chọn một file ảnh, file văn bản hoặc file PDF!');
+								filelink.val(''); 
+								fileinput.val(''); 
+							}
+						},
+					});
+				}else{
+					alert("Vui lòng chọn một file ảnh, file văn bản hoặc file PDF");
+				}
+			});
+
+			$('body').on('change', '#variant', function(event) {
+				var id = $(this).find('option:selected').data('id');
+				console.log(id); 
+				if(id != undefined){
+					$('.imgmain').hide();
+					$('#variant_'+id).show();
+					$('.giaban').text($(this).find('option:selected').data('price'));
+					$('#price').val($(this).find('option:selected').data('pricereal'));
+				}else{
+					$('.imgmain').hide();
+					$('.imgmainmain').show();
+				}
+			});
+
+			$('.list-group').on('click', '.catParent', function(event) {
+				event.preventDefault();
+				var id = $(this).data('id');
+				$('.child'+id).toggle();
+				$(this).find('i.fa-plus').toggle();
+				$(this).find('i.fa-minus').toggle();
+			});
+			$('.list-group-item').each(function(index, el) {
+				if($(this).hasClass('active')){
+					var parent = $(this).data('parent');
+					$('.parent'+parent).trigger('click');
+				}
+			});
+			$("table").each(function(index, el) {
+				if(!$(this).hasClass('table')){
+					$(this).addClass('table').addClass('table-bordered');
+				}
+			});
+			$('.carousel-click .carousel-click-item').each(function(index, el) {
+				$(this).on('click', function(event) {
+					event.preventDefault();
+					$('.carousel-click .owl-dot:nth('+index+')').trigger('click');
+				});
+			});
+			$(".chi-tiet-bai-viet img").wrap("<p class='text-center'></p>");
+			$(".chi-tiet-bai-viet video").wrap("<p class='text-center'></p>");
+			$(".chi-tiet-bai-viet img").each(function() {
+				$(this).attr('title', $(this).attr('alt'));
+				$(this).attr('width', 2000);
+				$(this).attr('height', 2000);
+			});
+			// $(".chi-tiet-bai-viet img").click(function(event) {
+			// 	$('#modalImg').modal('show');
+			// 	$('#modalImgSrc').attr('src', $(this).attr('src').replace('/thumbs','/upload/'));
+			// });
+			$(".noianh").click(function(event) {
+				$('#modalImg').modal('show');
+				$('#modalImgSrc').attr('src', $(this).data('src').replace('/thumbs','/upload/'));
+			});
+			if(isMobile()){
+				$(".table-to-responsive table").each(function(index, el) {
+					$(this).wrap("<div class='table-responsive'></div>");
+					$(this).css('width','900px');
+					$(this).css('max-width','900px');
+					$(this).css('table-layout','fixed');
+					// $(this).find('td').css('width','33%');
+				});
+			}
+			$('.mce-object-video').each(function(index, el) {
+				var video = $(this).data('mce-html');
+				video = video.replace('%0A%3Csource%20src%3D%22','');
+				video = video.replace('%22%20type%3D%22video/mp4%22%20/%3E','');
+				$('<video width="550" height="350" controls><source src="'+video+'" type="video/mp4">Your browser does not support the video tag.</video>').insertAfter($(this));
+			});
+
+			if(isMobile()){
+				$('#mainMenu a.scroll-to').click(function(event) {
+					$('#mainMenu-trigger button').trigger('click');
+				});
+			}
+
+			var device = (isMobile())?'Điện thoại':'Máy tính';
+			var utm = getUrlParameter('utm_source');
+			$('.utm').val(utm);
+			$('.device').val(device);
+			var action = '';
+			// $.ajax({
+			// 	dataType: "html",
+			// 	type: "POST",
+			// 	evalScripts: true,
+			// 	url: "/ds-add.php",
+			// 	data: ({device:device, utm:utm, action:action}),
+			// 	success: function(){}
+			// });
+
+			$('form').on('click', '.btn-send-mail', function(event) {
+				event.preventDefault();
+				var form = $(this).parents('form');
+				var name=form.find('.name').val();
+				var phone=form.find('.phone').val();
+				var email=form.find('.email').val();
+				if(name!=undefined && (name=='' || name==null)){
+					alert('Vui lòng điền tên của bạn!'); return;
+				} else if(phone!=undefined && (phone=='' || phone==null)){
+					alert('Vui lòng điền số điện thoại của bạn!'); return;
+				// } else if(phone!=undefined && !isPhone(phone)){
+					// alert('Vui lòng kiểm tra lại số điện thoại, có thể bạn điền chưa đúng!'); return;
+				} else if(email!=undefined && (email=='' || email==null)){
+					alert('Vui lòng điền địa chỉ email của bạn!'); return;
+				} else if(email!=undefined && email!='' && email!=null && !isEmail(email)){
+					alert('Vui lòng kiểm tra lại địa chỉ email, có thể bạn điền chưa đúng!'); return;
+				}
+
+				$(this).replaceWith('<p>Đang gửi...</p>');
+
+				var element = form.data('element');
+				var data = form.serializeArray();
+				var json_data = JSON.stringify(data);
+				var device = (isMobile())?'Điện thoại':'Máy tính';
+				var utm = getUrlParameter('utm_source');
+				var action = $(this).data('action');
+				var currenturl = window.location.href;
+
+				$.ajax({
+					dataType: "html",
+					type: "POST",
+					evalScripts: true,
+					url: "/ds-add.php",
+					data: ({device:device, utm:utm, action:action, json_data:json_data, currenturl:currenturl}),
+					success: function(){},
+					error: function (xhr, ajaxOptions, thrownError) {
+						//alert(xhr.responseText);
+						alert(thrownError);
+					}
+				});
+
+				$.ajax({
+					dataType: "html",
+					type: "POST",
+					evalScripts: true,
+					url: "/w/updateDataElement",
+					data: ({"_token": "lfESlCcYM3Lq2QECfcm9LSFIUviLjdxpIaFJjQq5",element:element, json_data:JSON.stringify(data)}),
+					success: function(){},
+					error: function (xhr, ajaxOptions, thrownError) {
+						//alert(xhr.responseText);
+						alert(thrownError);
+					}
+				});
+
+				var taive = '';
+				console.log($(this).data('taive')); 
+				if($(this).data('taive') != undefined){
+					taive = $(this).data('taive');
+				}
+
+								$.ajax({
+					dataType: "html",
+					type: "POST",
+					evalScripts: true,
+					url: "//api.ihappy.vn/sendMail",
+					data: ({to:'lorem@gmail.com',url:window.location.hostname,json_data:json_data  }),
+					success: function(){
+						if(taive == ''){
+							window.location.href="/gui-thong-tin-thanh-cong-34253";
+						}else{
+							$('#modalTaive').modal('toggle');
+							window.open(
+								taive,
+								'_blank'
+								);
+						}
+					},
+					error: function (xhr, ajaxOptions, thrownError) {
+						//alert(xhr.responseText);
+						alert(thrownError);
+					}
+				});
+							});
+
+			
+			$('body').on('click', '.btn-taive', function(event) {
+				console.log(1);
+				$('#modalTaive').modal('show');
+				$('#modalTaive').find('.btn-link-tai').data('taive',$(this).data('taive'));
+			});
+
+			$('.btn-action').click(function(event) {
+				var device = (isMobile())?'Mobile':'PC';
+				var utm = getUrlParameter('utm_source');
+				var action=$(this).data('action');
+
+				$.ajax({
+					dataType: "html",
+					type: "POST",
+					evalScripts: true,
+					url: "/ds-add.php",
+					data: ({device:device, utm:utm, action:action}),
+					success: function(){},
+					error: function (xhr, ajaxOptions, thrownError) {
+						//alert(xhr.responseText);
+						alert(thrownError);
+					}
+				});
+			});
+
+			$('form').on('click', '.btn-gio-hang', function(event) {
+				$(this).html('<i class="fa fa-angle-double-right"></i> Đang thêm...');
+				event.preventDefault();
+				var form = $(this).parents('form');
+				var element = form.data('element');
+				var data = form.serializeArray();
+				var json_data = JSON.stringify(data);
+				var device = (isMobile())?'Điện thoại':'Máy tính';
+				var utm = getUrlParameter('utm_source');
+				var action = $(this).data('action');
+
+				$.ajax({
+					dataType: "html",
+					type: "POST",
+					evalScripts: true,
+					url: "/ds-add.php",
+					data: ({device:device, utm:utm, action:action, json_data:json_data}),
+					success: function(){},
+					error: function (xhr, ajaxOptions, thrownError) {
+						//alert(xhr.responseText);
+						alert(thrownError);
+					}
+				});
+
+				$.ajax({
+					dataType: "html",
+					type: "POST",
+					evalScripts: true,
+					url: "/w/updateDataElement",
+					data: ({"_token": "lfESlCcYM3Lq2QECfcm9LSFIUviLjdxpIaFJjQq5",element:element, json_data:JSON.stringify(data)}),
+					success: function(){
+						if (typeof fbq === 'function') {
+							fbq('track', 'Purchase', {
+								content_ids: [''],
+								content_type: 'product',
+								value: '',
+								currency: 'VND'
+							});
+						}
+						form.find('.btn-gio-hang').html('<i class="fa fa-check"></i> Đã thêm vào giỏ hàng');
+						console.log($('.cartCount:visible').text()); 
+						$('.cartCount:visible').text((parseInt($('.cartCount:visible').text())+1));
+					},
+					error: function (xhr, ajaxOptions, thrownError) {
+						//alert(xhr.responseText);
+						alert(thrownError);
+					}
+				});
+			});
+
+			$('form').on('click', '.btn-mua-ngay', function(event) {
+				event.preventDefault();
+				var form = $(this).parents('form');
+				var element = form.data('element');
+				var data = form.serializeArray();
+				var json_data = JSON.stringify(data);
+				var device = (isMobile())?'Điện thoại':'Máy tính';
+				var utm = getUrlParameter('utm_source');
+				var action = $(this).data('action');
+
+				$.ajax({
+					dataType: "html",
+					type: "POST",
+					evalScripts: true,
+					url: "/w/updateDataElement",
+					data: ({"_token": "lfESlCcYM3Lq2QECfcm9LSFIUviLjdxpIaFJjQq5",element:element, json_data:JSON.stringify(data)}),
+					success: function(){
+						if (typeof fbq === 'function') {
+							fbq('track', 'Purchase', {
+								content_ids: [''],
+								content_type: 'product',
+								value: '',
+								currency: 'VND'
+							});
+						}
+						window.location.href="/gio-hang-34252";
+					},
+					error: function (xhr, ajaxOptions, thrownError) {
+						//alert(xhr.responseText);
+						alert(thrownError);
+					}
+				});
+			});
+
+			$('form').on('click', '.btn-xoa-gio-hang', function(event) {
+				event.preventDefault();
+				var form = $(this).parents('form');
+				var element = form.data('element');
+				var data = form.serializeArray();
+				var json_data = JSON.stringify(data);
+				var device = (isMobile())?'Điện thoại':'Máy tính';
+				var utm = getUrlParameter('utm_source');
+				var action = $(this).data('action');
+
+				$.ajax({
+					dataType: "html",
+					type: "POST",
+					evalScripts: true,
+					url: "/w/updateDataElement",
+					data: ({"_token": "lfESlCcYM3Lq2QECfcm9LSFIUviLjdxpIaFJjQq5",element:element, json_data:JSON.stringify(data)}),
+					success: function(){
+						window.location.href="/gio-hang-34252";
+					},
+					error: function (xhr, ajaxOptions, thrownError) {
+						//alert(xhr.responseText);
+						alert(thrownError);
+					}
+				});
+			});
+
+			$('form.update-gio-hang').on('change', 'select, input', function(event) {
+				console.log(1); 
+				event.preventDefault();
+				var form = $(this).parents('form');
+				var element = form.data('element');
+				var data = form.serializeArray();
+				var json_data = JSON.stringify(data);
+				var device = (isMobile())?'Điện thoại':'Máy tính';
+				var utm = getUrlParameter('utm_source');
+				var action = $(this).data('action');
+
+				$.ajax({
+					dataType: "html",
+					type: "POST",
+					evalScripts: true,
+					url: "/w/updateDataElement",
+					data: ({"_token": "lfESlCcYM3Lq2QECfcm9LSFIUviLjdxpIaFJjQq5",element:element, json_data:JSON.stringify(data)}),
+					success: function(){
+						window.location.href="/gio-hang-34252"; 
+					},
+					error: function (xhr, ajaxOptions, thrownError) {
+						//alert(xhr.responseText);
+						alert(thrownError);
+					}
+				});
+			});
+		})(jQuery);
+	});
+
+var getUrlParameter = function getUrlParameter(sParam) {
+	var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+	sURLVariables = sPageURL.split('&'),
+	sParameterName,
+	i;
+
+	for (i = 0; i < sURLVariables.length; i++) {
+		sParameterName = sURLVariables[i].split('=');
+
+		if (sParameterName[0] === sParam) {
+			return sParameterName[1] === undefined ? true : sParameterName[1];
+		}
+	}
+};
+
+function isMobile() {
+	return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
 }
 
-console.log("Fetching data...");
-getJSON("https://sheetdb.io/api/v1/1q3xulpa4wz5z").then(data => {
-  console.log(data[0].STT);
-  $("#imgDemo").attr("src",data[0].STT);
-}).catch(error => {
-  console.error(error);
-});
+function isEmail(email) {
+	var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+	return regex.test(email);
+}
+
+function isPhone(phone) {
+	var isnum = /^\d+$/.test(phone);
+	if(isnum){
+		return (phone.match(/\d/g).length===10 || phone.match(/\d/g).length===11);
+	}
+	return false;
+}
+</script>
+    <script>
+        const getJSON = async url => {
+            const response = await fetch(url);
+            if (!response.ok) // check if response worked (no 404 errors etc...)
+                throw new Error(response.statusText);
+
+            const data = response.json(); // get JSON from the response
+            return data; // returns a promise, which resolves to this data value
+        }
+
+        console.log("Fetching data...");
+        getJSON("https://sheetdb.io/api/v1/1q3xulpa4wz5z").then(data => {
+            console.log(data[0].T1);
+            $("#imgLogo").attr("src", data[0].LOGO);
+            $("#img1").attr("src", data[0].IMG1);
+            $("#img_").attr("src", data[0].IMG);
+            $("#img2").attr("src", data[0].IMG2);
+            $("#tt1").append(data[0].T1);
+            $("#SANPHAM1").append(data[0].SANPHAM1);
+            $("#tt2").append(data[0].T2);
+            $("#img3").attr("src", data[0].IMG3);
+            $("#SANPHAM2").append(data[0].SANPHAM2);
+            $(".imgIcon").prop("src", data[0].IMGICON);
+        }).catch(error => {
+            console.error(error);
+        });
     </script>
+</body>
+
 </html>
