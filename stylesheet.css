@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'VL Analogue';
+    src: url('VLAnalogueRegular.woff2') format('woff2'),
+        url('VLAnalogueRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'VL Analogue';
+    src: url('VLAnalogueItalic.woff2') format('woff2'),
+        url('VLAnalogueItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
