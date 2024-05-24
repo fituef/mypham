@@ -77,9 +77,8 @@ function showLoadingIndicator() {
 
 function showSuccessMessage(response) {
     console.log('Success!', response);
-    setTimeout(() => {
-        $("#btnDoSV").show();
-    }, 2000);
+    alert("CẢM ƠN QUÝ KHÁCH. CHÚNG TÔI SẼ LIÊN HỆ SỚM!!!")
+    location.reload();
 }
 
 function showErrorMessage(error) {
