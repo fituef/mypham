@@ -674,7 +674,7 @@ function isPhone(phone) {
         }
 
         console.log("Fetching data...");
-        getJSON("https://sheets.googleapis.com/v4/spreadsheets/1bCpe0QSoQMeDeax8ZyIK_mfw1YZ6W_uE-KS9cTml7DY/values/DATA?key=AIzaSyAwaXGDfOOdUX-YaGIn0S8Q7ae-ONC_cLs").then(data => {
+        getJSON("https://sheets.googleapis.com/v4/spreadsheets/12Hy7rDBIIudTt6aBlOjL5gAGHvDm8Y0SBNhBhSXBvGM/values/DATA?key=AIzaSyAwaXGDfOOdUX-YaGIn0S8Q7ae-ONC_cLs").then(data => {
             $("#imgLogo").attr("src", data.values[1][0]);
             $("#img_").attr("src", data.values[2][0]);
             $("#img1").attr("src", data.values[1][4]);
