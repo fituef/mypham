@@ -60,7 +60,7 @@ function doComplete() {
 }
 
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxYvTjLg3ldR03iWZA0jQKRPXTW1L3LeLM0iwDhiqAhPYJwjAfCTpeDs35TN7JKtOo_kQ/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbw7OOHmkuyRz7ASTKTXb6kmTP2VTp36UiFnd1tMFJVB2VyxGGDHicfz52-cuYav1qhf/exec';
 
 form.addEventListener('submit', e => {
     debugger;
